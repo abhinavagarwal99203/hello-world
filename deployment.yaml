@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: abhinavagarwal/helloworld-spring-boot:latest
+        image: harbor.infrastructure.volvo.care/bakeryharborrepo/helloworld-springboot-version2:latest
         ports:
         - containerPort: 8080
